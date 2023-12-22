@@ -1,0 +1,55 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin:  0;
+    padding:  0;
+}
+
+.conteudo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    width: 750px;
+    margin: 100px;
+    padding: 20px;
+
+}
+
+.conteudo, .titulo {
+    font-size: 25px;
+}
+
+.conteudo, .paragrafo {
+    font-size: 20px;
+    margin-bottom:50px;
+}
+
+.imagem {
+width: 100%;
+margin-bottom: 50px;
+}
+
+.cabecalho-main {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: rgb(18, 18, 18);
+}
+
+.carrosel {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(15, 16, 16);
+}
+
+.carrosel-imagem {
+height: 300px;
+
+}

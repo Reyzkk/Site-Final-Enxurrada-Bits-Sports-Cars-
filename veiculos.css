@@ -1,0 +1,211 @@
+body.dark {
+    background: black;
+}
+
+body {
+    background: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.painel-container {
+position: fixed;
+height: 100vh;
+
+}
+
+
+.painel {
+    display: inline-block;
+    width: 50px;
+    padding: 10px;
+    height: 100%;
+    background: rgb(18, 18, 18);
+    overflow: hidden;
+    transition: 1s;
+    
+}
+
+.painel:hover {
+    background: rgb(18, 18, 18);
+    width: 200px;
+    transform: 1s;
+}
+
+
+
+.tags-span {
+    display: flex;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.tags-span:hover {
+    background: rgba(106, 9, 162, 0.945);
+    
+    width: 100%;
+   
+}
+
+.tags-span li {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 3px;
+    
+   
+}
+
+.tags-span a {
+font-size: 25px;
+}
+
+.tags-span a, i {
+    color: white;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+}
+
+.tags-span i {
+    font-size: 30px;
+    
+    
+}
+
+
+.theme {
+    position: absolute;
+    bottom: 0;
+    font-size:30px;
+    margin-left:10px;
+}
+
+
+.navegador-container {
+    display: flex;
+    justify-content: right;
+    background: rgb(18, 18, 18);
+   
+    
+}
+
+
+.navegador-header {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 65px;
+}
+
+.list-nav {
+
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid rgb(18, 18, 18);
+}
+
+.link-nav {
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.list-nav:hover {
+border-bottom: 1px solid white;
+cursor:pointer;
+padding: 5px;
+}
+
+
+
+
+
+
+.titulos {
+font-family: 'Prompt', sans-serif;
+}
+
+.paragrafos {
+font-family: arial, sans-serif;
+}
+
+.imagens {
+height: 300px;
+width:500px;
+
+}
+
+.container-pecas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 40px;
+    margin: 50px;
+}
+
+.slot-pecas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    width:500px;
+    color: black;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    transition: 0.5s;
+    background: white;
+}
+
+
+.slot-pecas:hover {
+border-bottom:15px solid rgb(155, 26, 215);
+border-radius: 15px;
+background: rgb(18, 18, 18);
+color: white;
+transform: scale(1.09);
+font-family: arial;
+cursor: pointer;
+}
+
+.logo-marca {
+    height: 150px;
+    }
+    
+    
+    .container-rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background: rgb(0, 0, 0);
+        height: 600px;
+    
+    }
+    
+    .rodape {
+        border-bottom:1px solid white;
+    }
+    
+    
+    .rodape .paragrafos {
+    color: white;
+    font-weight: 600;
+    margin: 20px;
+    }
+    
+    .rodape-link {
+        color: rgb(129, 15, 178);
+        text-decoration: none;
+    }
+
+    .logo-rodape {
+        height: 300px;
+    }

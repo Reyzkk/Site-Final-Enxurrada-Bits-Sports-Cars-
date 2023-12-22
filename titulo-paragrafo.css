@@ -1,0 +1,90 @@
+.titulo {
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+
+.paragrafo {
+    font-family: arial;
+    font-size: 15px;
+}
+
+.escala-alta-imagem {
+    background-size: cover;
+    background-repeat: none;
+    height: 100%;
+    width: 100%;
+}
+
+.painel-container {
+    position: fixed;
+    height: 100vh;
+    
+    }
+    
+    
+    .painel {
+        display: inline-block;
+        width: 50px;
+        padding: 10px;
+        height: 100%;
+        background: rgb(18, 18, 18);
+        overflow: hidden;
+        transition: 1s;
+        
+    }
+    
+    .painel:hover {
+        background: rgb(18, 18, 18);
+        width: 200px;
+        transform: 1s;
+    }
+    
+    
+    
+    .tags-span {
+        display: flex;
+        margin: 5px;
+        margin-top:15px;
+        
+    }
+    
+    .tags-span:hover {
+        background: rgba(106, 9, 162, 0.945);
+       
+        width: 100%;
+       
+    }
+    
+    .tags-span li {
+        list-style-type: none;
+        margin-left: 30px;
+        margin-top: 3px;
+        
+       
+    }
+    
+    .tags-span a {
+    font-size: 25px;
+    }
+    
+    .tags-span a, i {
+        color: white;
+        text-decoration: none;
+        font-family: arial, sans-serif;
+        cursor: pointer;
+    }
+    
+    .tags-span i {
+        font-size: 30px;
+        
+        
+    }
+    
+    
+    .theme {
+        position: absolute;
+        bottom: 0;
+        font-size:30px;
+        margin-left:10px;
+    }
+    

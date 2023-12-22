@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.return {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.return a {
+    font-size: 20px;
+        
+    color:rgb(207, 227, 207);
+    text-decoration: none;
+}
+
+
+.header-nav-container {
+    display: flex;
+    justify-content: center;
+    background: rgba(18, 18, 18);
+}
+
+.header-nav {
+    color: white;
+
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(0, 0, 0);
+    height: 600px;
+
+}
+
+.rodape {
+    border-bottom: 1px solid white;
+}
+
+
+.rodape .paragrafos {
+    color: white;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.rodape-link {
+    color: rgb(129, 15, 178);
+    text-decoration: none;
+}
+
+.logo-rodape {
+    height: 300px;
+}
+
+
+.painel-shop-container {
+    background-image: url('https://cdn.autopapo.com.br/box/uploads/2023/01/09102523/nissan-gt-r-black-series-sebastian-vettel-f1-.jpg');
+    background-size:cover;
+    height: 800px;
+    border-bottom:10px solid rgb(9, 9, 9);
+    
+}
+
+.painel-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;  
+    height: 500px;
+    
+}
+
+.painel-shop .titulo {
+    font-size: 35px;
+}
+
+.painel-info-container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.box-verde {
+    background: rgb(42, 43, 43);
+    outline: 1px solid black;  
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.box-verde:focus {
+    outline: 2px solid rgb(26, 25, 27);
+    transform: scale(1.1);
+}
+
+.box-branco:focus {
+    outline: 2px solid rgb(26, 25, 27);
+    transform: scale(1.1);
+}
+
+.box-preto:focus {
+    outline: 2px solid rgb(26, 25, 27);
+    transform: scale(1.1);
+}
+
+
+.box-branco{
+    background: rgb(255, 6, 6);
+    outline: 1px solid black; 
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.box-preto {
+    background: black;
+    outline: 1px solid black; 
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.colors-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.botao-buy {
+    border: 1px solid black;
+    width: 120px;
+}
+
+.input-dinheiro  {
+    width: 100px;
+}
+
+.botao-buy:hover {
+    background: rgba(0, 0, 0, 0.816);
+    color: white;
+    
+}
+
+
+.shop-conteudo-container {
+    display: flex;
+    justify-content: center;
+    background: rgb(22, 23, 23);
+    color: white;
+    
+}
+
+.shop-conteudo {
+    width:100%;
+    padding: 150px;
+
+}
+
+.logo-marcas {
+    height: 100px;
+}

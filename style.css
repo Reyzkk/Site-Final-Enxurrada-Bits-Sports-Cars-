@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px 10px black;
+    position: relative;
+}
+
+.img-container {
+    background: url('https://i.pinimg.com/originals/61/ba/10/61ba107b67a26236c33a1aab5b38cde7.jpg');
+    background-size: cover;
+    background-repeat: none;
+    border: 1px solid rgb(0, 0, 0);
+    height: 35vw;
+    width: 100%;
+
+}
+
+
+.navegador {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    background: rgb(6, 6, 6);
+}
+
+.logo {
+    height: 120px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.nome-logo {
+    color: white;
+    font-family: arial;
+
+}
+
+.texto-center {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.box-conteudo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    width: 200px;
+    height: 100%;
+    background: rgba(32, 138, 18, 0.885);
+
+
+    font-family: arial;
+    color: white;
+    font-weight: 600;
+}
+
+.box-conteudo h1 ,p {
+    padding: 20px;
+}
+
+
+.conteudo-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+
+.box-info {
+
+    padding:10px;
+    width: 700px;
+    height: 200px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.imagens-carrosel {
+    height: 250px;
+    margin-bottom: 100px;
+    box-shadow: 3px 10px 15px rgb(20, 20, 20);
+    transition: 0.2s;
+}
+
+.imagens-carrosel:hover {
+    border-bottom: 10px solid rgb(14, 182, 14);
+    border-radius: 10px;
+    transform: scale(1.07);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+
+
+.container-carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.titulo {
+    font-family: 'Prompt', sans-serif;
+}
+
+.paragrafos {
+    font-family: arial, sans-serif;
+}
+
+.imagens-post {
+    height: 325px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 3px 10px 15px rgb(20, 20, 20);
+}
+
+.container-carros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px;
+
+}
+
+
+.post-carros {
+
+    border: 1px solid black;
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 1s;
+}
+
+
+
+.logo-marca {
+    height: 150px;
+}
+
+
+.container-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    height: 600px;
+
+}
+
+.rodape {
+    border-bottom: 1px solid white;
+
+}
+
+
+.rodape .paragrafos {
+    color: white;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.rodape-link {
+    color: rgb(129, 15, 178);
+    text-decoration: none;
+}
+
+
+.botao {
+    width: 150px;
+    border: 1px solid black;
+    color: rgb(13, 13, 13);
+    font-family: 'Prompt', sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    transition: 0.8s;
+}
+
+.botao:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+.logo-rodape {
+    height: 300px;
+}
+
+#theme{
+    position:fixed;
+    right: 0;
+    color: black;
+    font-size: 50px;
+}

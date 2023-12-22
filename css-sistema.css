@@ -1,0 +1,84 @@
+
+
+.container-comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-comprar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.09s linear;
+    position: relative;
+    color: black;
+    background: white;
+
+
+    width: 450px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 5px black;
+    padding: 20px;
+}
+
+#exit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#stock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-comprar:hover {
+    transform: scale(1.05);
+    transition: 0.09s linear;
+}
+
+
+
+.imagens {
+    height: 200px;
+    width: 200px;
+}
+
+.botao {
+    width: 150px;
+    border: 1px solid black;
+}
+
+.botao:hover {
+    background: rgba(0, 0, 0, 0.888);
+    color: white;
+}
+
+#add-money {
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'Prompt', sans-serif;
+}
+
+#item-slot {
+    background: black;
+    border: black;
+    box-shadow: 0px 0px 10px 0.5px black;
+
+    font-family: 'Prompt', sans-serif;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
